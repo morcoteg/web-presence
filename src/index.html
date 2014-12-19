@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<link href="main.css" type="text/css" rel="stylesheet" media="screen"/> 
+
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>Gabriel Morcote</title> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("#out").hide().fadeIn(2000); 
+        }); 
+         
+    </script> 
+     
+</head> 
+
+<body class="hidden" style="display:block"> 
+    <div id="body"> 
+        <div id="header"> 
+                 
+                <h1 class="header-title">/ /   gabriel.morcote</h1> 
+                <nav> 
+                    <ul class="navigation"> 
+                        <li><a href="index.html" id="current-page">home</a></li> 
+                        <li><a href="CAREER_GALLERY RESUME.pdf">resume</a></li> 
+                        <li><a href="work.html">work experience</a></li> 
+                        <li><a href="skills.html">skills</a></li> 
+                        <li><a href="projects.html">projects</a></li> 
+                    </ul> 
+                </nav> 
+        </div> 
+       <hr /> 
+        <div id="out"> 
+            <div id= "body"> 
+                <div class="main"> 
+                    <ul> 
+                        <li> 
+                            <p class="main-description"><strong id="bold-main">Gabriel Morcote</strong><img class="main-image" src="senior_photo.jpg" id="myself" alt="myself" /></p> 
+                        </li> 
+                        <li> 
+                             <button type="button" class="button" id="button">More About Me</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More About Me', 
+                                       'Less About Me' 
+                                    ]; 
+                                    var state = true; 
+                                    $( "#button" ).click(function() { 
+                                      if ( state ) { 
+                                        $( "#school" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 1400 
+                                        }, 2000 ); 
+                                        $( "#button" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button" ).text(copyText[0]); 
+                                      } 
+                                      state = !state; 
+                                    }); 
+                                  }); 
+                            </script> 
+                             <div id="school" style="height:0px; visibility:hidden;"> 
+                                 <p class="main-description"> <strong id="bold-main">Innovative</strong> developer with a knack for creativity.</p> 
+                                 <p class="main-description">Born in <strong id="bold-main">San Juan, Puerto Rico</strong></p> 
+                                 <p class="main-description">Grew up in <strong id="bold-main">Traverse City, Michigan</strong></p> 
+                                <p class="main-description">A junior at <strong id="bold-main">Michigan State University</strong><img class="main-image2" src="175px-MSUSpartans_Logo.svg.png" id="msu-logo" alt="msu-logo"/></p> 
+                                <p class="main-description">Studying <strong id="bold-main">Computer Science.</strong></p> 
+                                <p class="main-description">I can help you <strong id="bold-main">implement</strong> your next <strong id="bold-main">project.</strong></p> 
+                                <br /> 
+                                <p class="main-description">I also have been playing the <strong id="bold-main">violin</strong> for <strong id="bold-main">16</strong> years.</p> 
+                                <p class="main-description">I would love to perform a <strong id="bold-main">violin gig</strong> with/for you. </p> 
+                                 
+                                <script type="text/javascript"> 
+                                    $(document).ready(function(){ 
+                                    $("#back-to-top").hide(); 
+                                    $(function () { 
+                                        $(window).scroll(function(){ 
+                                        if ($(window).scrollTop()>100){ 
+                                        $("#back-to-top").fadeIn(1500); 
+                                        } 
+                                        else 
+                                        { 
+                                        $("#back-to-top").fadeOut(1500); 
+                                        } 
+                                        }); 
+                                        //back to top 
+                                        $("#back-to-top").click(function(){ 
+                                        $('body,html').animate({scrollTop:0},1000); 
+                                        return false; 
+                                        }); 
+                                        }); 
+                                        }); 
+                                </script> 
+                                <button type="button" class="button" id="back-to-top"> Back To Top</button> 
+                             </div> 
+                        </li> 
+                   </ul> 
+                </div> 
+                 
+                 
+            </div> 
+        </div> 
+       <hr /> 
+         
+        
+             
+        <div id="footer"> 
+                <h1 class="footer-title"><a href="mailto:morcoteg@msu.edu" style="text-decoration:none; color:black;">morcoteg@msu.edu</a></h1> 
+                <h1 class="footer-title">231-360-8781</h1> 
+                <a href="http://github.com/morcoteg"><img class="footer-img" src="GitHub-Mark.png"/></a> 
+                <a href="https://www.linkedin.com/pub/gabriel-morcote/98/27a/907"><img class="footer-img" src="linked.png"/></a> 
+                 
+        </div> 
+    </div> 
+</body> 
+</html> 

@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<link href="main.css" type="text/css" rel="stylesheet" media="screen"/> 
+
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>skills</title> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("#out-work-know").hide().fadeIn(2000); 
+        }); 
+    </script> 
+</head> 
+
+<body> 
+    <div id="body"> 
+        <div id="header"> 
+            <h1 class="header-title">/ /   gabriel.morcote   / / skills</h1> 
+            <nav> 
+                <ul class="navigation"> 
+                    <li><a href="index.html">home</a></li> 
+                    <li><a href="CAREER_GALLERY RESUME.pdf">resume</a></li> 
+                    <li><a href="work.html">work experience</a></li> 
+                    <li><a href="skills.html" id="current-page">skills</a></li> 
+                    <li><a href="projects.html">projects</a></li> 
+                </ul> 
+            </nav> 
+        </div> 
+        <hr /> 
+         
+        <div id="out-work-know"> 
+            <div class="proj-box"> 
+                 
+                <ul class="proj-list"> 
+                    <li> 
+                        <div id="exp"> 
+                         
+                            <h2><div> C + + </div></h2> 
+                            <button type="button" class="button" id="button">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state = true; 
+                                    $( "#button" ).click(function() { 
+                                      if ( state ) { 
+                                        $( "#school" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 381 
+                                        }, 1000 ); 
+                                        $( "#button" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button" ).text(copyText[0]); 
+                                      } 
+                                      state = !state; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div  id="school" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">Object oriented programming (OOP) experience with <strong>C++</strong>. Started from writing simple projects to larger scaled object oriented projects. I learned C++ through my courses at Michigan State University, and still have much more to learn about it. </p> 
+                                    <div class="img-box"> 
+                                        <img src="cplusplus.GIF"/> 
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                     
+                    <li> 
+                        <div id="exp"> 
+                            <h2><div> Java </div></h2> 
+                            <button type="button" class="button" id="button1">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state1 = true; 
+                                    $( "#button1" ).click(function() { 
+                                      if ( state1 ) { 
+                                        $( "#school1" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 360 
+                                        }, 1000 ); 
+                                        $( "#button1" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school1').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school1" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button1" ).text(copyText[0]); 
+                                      } 
+                                      state1 = !state1; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div   id="school1" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">Object oriented programming experience. Java basics - created an application. Worked in team environment for the application we made. Java EE - used to build further upon our application, continuing with the team environment. 
+                                    CURRENTLY LEARNING:  Spring framework/ Strut Framework.</p> 
+                                    <div class="img-box"> 
+                                        <img src="java.jpg"/> 
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                     
+                    <li> 
+                        <div id="exp"> 
+                            <h2><div> HTML/CSS </div></h2> 
+                             <button type="button" class="button" id="button2">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state1 = true; 
+                                    $( "#button2" ).click(function() { 
+                                      if ( state1 ) { 
+                                        $( "#school2" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 360 
+                                        }, 1000 ); 
+                                        $( "#button2" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school2').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school2" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button2" ).text(copyText[0]); 
+                                      } 
+                                      state1 = !state1; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div   id="school2" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">Applied this language to make websites. I worked as a <strong>Web Developer</strong> with a team at my previous job (at <strong>The State News</strong> to help create and manage sites, including our own school news website.<br /> Clients include: Ball State University, University of Pennsylvania, University of Arizona, Eastern Michigan University, University of North Carolina, University of South Carolina, University of New Mexico, and many more.</p> 
+                                    <div class="img-box"> 
+                                        <img src="htmlcss.jpg"/> 
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                     
+                    <li> 
+                        <div id="exp"> 
+                            <h2><div> jQuery/Javascript </div></h2> 
+                             <button type="button" class="button" id="button3">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state1 = true; 
+                                    $( "#button3" ).click(function() { 
+                                      if ( state1 ) { 
+                                        $( "#school3" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 360 
+                                        }, 1000 ); 
+                                        $( "#button3" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school3').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school3" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button3" ).text(copyText[0]); 
+                                      } 
+                                      state1 = !state1; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div   id="school3" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">Have a basic understanding of <strong>jQuery/Javascript.</strong> Learned these languages on my own to use occasionally in my previous web development position, and applied some of it on this very website. Learning more with experience.</p> 
+                                    <div class="img-box"> 
+                                        <img src="jquery-mark-light.gif"/> 
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                     
+                    <li> 
+                        <div id="exp"> 
+                            <h2><div> SQL  </div></h2> 
+                                <button type="button" class="button" id="button4">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state1 = true; 
+                                    $( "#button4" ).click(function() { 
+                                      if ( state1 ) { 
+                                        $( "#school4" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 360 
+                                        }, 1000 ); 
+                                        $( "#button4" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school4').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school4" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button4" ).text(copyText[0]); 
+                                      } 
+                                      state1 = !state1; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div   id="school4" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">On Sequel Server / Oracle PL/SQL 11g. Used this to query a database, then used that extracted information in a web application (currently learning more and using more in this web app). </p> 
+                                    <div class="img-box"> 
+                                        <img src="Microsoft_SQL_Server.jpg"/> 
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                     
+                    <li> 
+                        <div id="exp"> 
+                            <h2><div> Python </div></h2> 
+                                <button type="button" class="button" id="button5">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state1 = true; 
+                                    $( "#button5" ).click(function() { 
+                                      if ( state1 ) { 
+                                        $( "#school5" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 360 
+                                        }, 1000 ); 
+                                        $( "#button5" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school5').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school5" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button5" ).text(copyText[0]); 
+                                      } 
+                                      state1 = !state1; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div   id="school5" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">Learned <strong>Python</strong> in my first programming course at Michigan State University. Established a deep understanding of data structures in Python, and how to apply them in object oriented programming in Python. Wrote basic programs in this introductory course.</p> 
+                                    <div class="img-box"> 
+                                        <img src="python-logo-master-v3-TM.png"/> 
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                     
+                    <li> 
+                        <div id="exp"> 
+                            <h2><div> SPARC assembly </div></h2> 
+                                <button type="button" class="button" id="button6">More Details</button> 
+                             <script> 
+                                $(function() { 
+                                    var copyText= [ 
+                                       'More Details', 
+                                       'Less Details' 
+                                    ]; 
+                                    var state1 = true; 
+                                    $( "#button6" ).click(function() { 
+                                      if ( state1 ) { 
+                                        $( "#school6" ).animate({ 
+                                          backgroundColor: "#aa0000", 
+                                          color: "#fff", 
+                                          height: 360 
+                                        }, 1000 ); 
+                                        $( "#button6" ).text(copyText[1]); 
+                                         
+                                        //document.getElementById('button').style.display = 'none'; 
+                                        document.getElementById('school6').style.visibility = 'visible'; 
+                                      } else { 
+                                        $( "#school6" ).animate({ 
+                                          backgroundColor: "#fff", 
+                                          color: "#000", 
+                                          height: 0 
+                                        }, 1000 ); 
+                                        $( "#button6" ).text(copyText[0]); 
+                                      } 
+                                      state1 = !state1; 
+                                    }); 
+                                  }); 
+                            </script> 
+                                <div   id="school6" style="height:0px; visibility:hidden;"> 
+                                    <p id="exp-title">Learned <strong>SPARC</strong> in a course (CSE320) at Michigan State University. Programmed projects in assembly code that represented what "happened" in higher level languages (i.e. C++, Java, etc ). Assembly code has a very strong correspondence between the language and the architecture's machine code instructions.</p> 
+                                    <div class="img-box"> 
+                                    <!-- change to sparc image --> 
+                                        <img src="SPARC.png"/>     
+                                    </div> 
+                                </div> 
+                        </div> 
+                    </li> 
+                    
+                </ul> 
+            </div> 
+            <script type="text/javascript"> 
+                                    $(document).ready(function(){ 
+                                    $("#back-to-top").hide(); 
+                                    $(function () { 
+                                        $(window).scroll(function(){ 
+                                        if ($(window).scrollTop()>100){ 
+                                        $("#back-to-top").fadeIn(1500); 
+                                        } 
+                                        else 
+                                        { 
+                                        $("#back-to-top").fadeOut(1500); 
+                                        } 
+                                        }); 
+                                        //back to top 
+                                        $("#back-to-top").click(function(){ 
+                                        $('body,html').animate({scrollTop:0},1000); 
+                                        return false; 
+                                        }); 
+                                        }); 
+                                        }); 
+                                </script> 
+                                <button type="button" class="button" id="back-to-top"> Back To Top</button> 
+        </div> 
+        <hr /> 
+         
+        <div id="footer"> 
+            <h1 class="footer-title"><a href="mailto:morcoteg@msu.edu" style="text-decoration:none; color:black;">morcoteg@msu.edu</a></h1> 
+            <h1 class="footer-title">231-360-8781</h1> 
+            <a href="http://github.com/morcoteg"><img class="footer-img" src="GitHub-Mark.png"/></a> 
+            <a href="https://www.linkedin.com/pub/gabriel-morcote/98/27a/907"><img class="footer-img" src="linked.png"/></a> 
+             
+        </div> 
+    </div> 
+
+</body> 
+</html> 

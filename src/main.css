@@ -1,0 +1,512 @@
+@charset "utf-8"; 
+/* CSS Document */ 
+.hand:hover{cursor: pointer;} 
+.hand2:hover{cursor: pointer;} 
+#header{ box-shadow: -1px 5px 17px 4px #58584F; } 
+#footer{padding: 1% 0 3% 3%; box-shadow: -1px 5px 17px 4px #58584F;} 
+
+#begin{background-image:url(lone-tree-in-dark-clouds-bw.jpg);} 
+
+#out{ 
+    background-image:url(lone-tree-in-dark-clouds-bw.jpg);  
+    box-shadow: -1px 2px 9px 2px #58584F; 
+    padding:50px; 
+} 
+#out-work-know{ 
+    background-image:url(lone-tree-in-dark-clouds-bw.jpg); 
+    box-shadow: -1px 2px 9px 2px #58584F; 
+    padding:50px; 
+} 
+#body { 
+    background-color: white; 
+    border-radius: 20px; 
+    padding: 1px; 
+    background: rgba(255, 255, 255, 0.6); 
+    border: 1px solid white; 
+    margin: 0 100px;     
+} 
+.proj-box h1 {color:white;} 
+.header-title { 
+    color: rgb(0, 255, 184); 
+    font-family: Century Gothic, sans-serif; 
+    font-size: 45px; 
+    text-align:center;     
+    font-weight:normal;     
+} 
+/*****************************************************button *********/ 
+.button { 
+    outline:none; 
+   cursor:pointer; 
+   border-top: 1px solid #96d1f8; 
+   background: #65a9d7; 
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7)); 
+   background: -webkit-linear-gradient(top, #107C4D, #45B98B); 
+   background: -moz-linear-gradient(top, #107C4D, #45B98B); 
+   background: -ms-linear-gradient(top, #107C4D, #45B98B); 
+   background: -o-linear-gradient(top, #107C4D, #45B98B); 
+   padding: 9px 15px; 
+   -webkit-border-radius: 8px; 
+   -moz-border-radius: 8px; 
+   border-radius: 8px; 
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+   box-shadow: rgba(0,0,0,1) 0 1px 0; 
+   text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+   color: white; 
+   font-size: 17px; 
+   font-family: Century Gothic, sans-serif; 
+   text-decoration: none; 
+   vertical-align: middle; 
+   display: block; 
+    margin: 20px auto 20px auto; 
+} 
+    
+.button:hover { 
+   border-top-color: #28597a; 
+   background: -webkit-linear-gradient(top, #107C4D, #3CFFB2); 
+   background: -moz-linear-gradient(top, #107C4D, #3CFFB2); 
+   background: -ms-linear-gradient(top, #107C4D, #3CFFB2); 
+   background: -o-linear-gradient(top, #107C4D, #3CFFB2); 
+   color: white; 
+   } 
+.button:active { 
+   border-top-color: #1b435e; 
+   background: #1b435e; 
+   } 
+    
+   #school { 
+        overflow:hidden;    
+   } 
+ #top { 
+    text-decoration: none; 
+    color: white;  
+ } 
+/*********************************************************************/ 
+
+.main > ul > li{ list-style-type:none; display:inline;} 
+#bold-main{ 
+    color: black; 
+    font-family: Century Gothic, sans-serif; 
+    font-size:36px; 
+} 
+
+.main-description { 
+    color: black; 
+    font-family: Century Gothic, sans-serif; 
+    margin: 50px 0 50px 0; 
+    text-align:center; 
+    font-size:24px; 
+} 
+.hand{height:100px;display:block; margin: 20px auto 20px auto;} 
+.hand2{height:100px;display:block; margin: 20px auto 20px auto;} 
+
+.main > ul > li > p > img{ margin: 20px auto 20px auto; display:block; height:300px;box-shadow: 10px 10px 100px 10px #fff;} 
+
+/**************************************NAV*****************************************/ 
+.navigation { 
+    list-style-type:none; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:70%; 
+} 
+
+
+.navigation > li { 
+    text-decoration:none; 
+    background-color:white; 
+    display: inline; 
+    height: 87px; 
+} 
+
+.navigation > li > a { 
+    padding: 0.85%; 
+    color:black; 
+    background-color:white; 
+    text-decoration:none; 
+    font-family: Century Gothic, sans-serif; 
+    font-size: 97%; 
+    height: 87px; 
+    line-height: 90%; 
+    border: 1px solid lightgray; 
+    box-shadow: 2px 5px 4px -2px rgb(53, 75, 69);; 
+} 
+.navigation > li > a:hover { 
+    color:white; 
+    background-color:black; 
+    text-decoration:none; 
+    font-family: Century Gothic, sans-serif; 
+} 
+
+
+
+/************************************************************end NAV ********************************/ 
+.main-image { 
+    width:400px; 
+    height:200px; 
+    width:200px; 
+    display:block; 
+    margin-left:auto; 
+    margin-right:auto;     
+} 
+
+#current-page{ 
+    color:white; 
+    background-color:black; 
+    text-decoration:none; 
+    font-family: Century Gothic, sans-serif; 
+    border: 1px solid white; 
+} 
+/****************************ABOUT ME **************************/ 
+.about-gabo { 
+    -moz-column-count: 3; 
+    -moz-column-gap: 10px; 
+    -webkit-column-count: 3; 
+    -webkit-column-gap: 10px; 
+    column-count: 3; 
+    column-gap: 10px; 
+    width: 100%;  
+} 
+    .about-gabo div { 
+        display: inline-block; /* Display inline-block, and absolutely NO FLOATS! */ 
+        margin-bottom: 20px; 
+        width: 100%;  
+        margin:50px; 
+         
+    } 
+#height {height:440px; width: 440px;} 
+/************************************************ABOUT ME ****************************/ 
+.imgWrap { 
+  position: relative; 
+  height: 400px; 
+  width: 200px; 
+} 
+.imgDescription { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  background: rgba(226, 232, 238, 0.9); 
+  color: black; 
+  height:400px; width:400px; 
+  font-family: Century Gothic, sans-serif; 
+  font-size:20px; 
+  font-weight:bold; 
+  visibility: hidden; 
+  opacity: 0; 
+  padding:20px; 
+  /*remove comment if you want a gradual transition between states 
+  -webkit-transition: visibility opacity 0.2s; 
+  */ 
+} 
+
+.imgWrap:hover .imgDescription { 
+  visibility: visible; 
+  opacity: 1; 
+  margin:0; 
+} 
+
+/**********************************************************************************S/ 
+
+/************************************************ GALLERIA ************************/ 
+#main-work{ 
+    padding: 30px 50px 20px 20px;  
+    box-shadow: -1px 2px 9px 2px #58584F; 
+} 
+
+/******************IE SUCKS so.. *************************/ 
+#IE-image { 
+    width:500px; 
+    height:300px; 
+    margin: 20px 10px 60px 150px; 
+    display:block;     
+} 
+/*********************************************************************************/ 
+
+footer { 
+    background-color: #39C; 
+    box-shadow: 10px 10px 5px #333; 
+    border-radius:10px; 
+} 
+
+footer > p { 
+    color:white; 
+    font-family: Century Gothic, sans-serif; 
+} 
+
+.aboutme-main > h2 { 
+    font-family: Century Gothic, sans-serif; 
+} 
+
+#about-list > li{ 
+    list-style-type:none; 
+    margin-bottom:50px; 
+    font-size: 18px; 
+    font-family: Century Gothic, sans-serif; 
+} 
+
+#about-list > li > img { 
+    height:100px; 
+    width:200px; 
+    display:block; 
+} 
+
+.proj-list > li { 
+    list-style-type:none; 
+    font-family: Century Gothic, sans-serif;     
+} 
+
+.img-box { 
+    margin-left:100px; 
+} 
+
+.img-box > img { 
+    width:280px; 
+    height:180px; 
+    margin-bottom: 100px; 
+} 
+/*****************************************skills*********/ 
+#exp{ 
+    overflow:hidden; 
+    border-radius:10px;     
+    margin-right: 5%; 
+    margin-left: 2.5%; 
+    opacity: 1; 
+    border: 10px solid white; 
+    margin-bottom: 50px; 
+    background-color:rgba(226, 232, 238, 0.5); 
+    box-shadow: inset 0 0 20px #000000; 
+} 
+#exp > div {padding-right:20px;} 
+#exp > h2 { 
+    background-color: white; 
+    color: black; 
+    height: 40px; 
+    margin-bottom:0; 
+    margin-top: 0; 
+} 
+
+#exp > h2 > div { 
+    margin-left: 20px; 
+    padding-top:5px; 
+} 
+#exp-title{ 
+    margin-top:0; 
+    margin-left:20px; 
+    padding: 10px; 
+    background-color: white; 
+    border-radius: 10px; 
+    color: black; 
+    font-size: 13px; 
+} 
+/**********************************************/ 
+.footer-img { 
+    height:45px; 
+    width:45px;     
+} 
+.footer-title { 
+    font-family: Century Gothic, sans-serif; 
+    font-size: 20px; 
+    color: black; 
+    margin: 30px auto;     
+    font-weight:normal; 
+} 
+
+/*******************************WORK PAGE *****************************/ 
+.kuali > ul { 
+    padding-left: 0; 
+    padding-right: 30px;     
+} 
+
+.specs { 
+    font-family: Century Gothic, sans-serif; 
+    font-size: 13px;     
+} 
+.specs > li { 
+    margin-bottom: 5px;     
+} 
+
+#kuali > div > div > img {width: 90%;} 
+
+
+/**********************************************************************/ 
+
+/**********************************************************************************responsive***********************************/ 
+/*RESPONSIVE CAPABILITIES*/ 
+@media (min-width: 300px) (max-width: 1067px){ 
+    .main-description {font-size:18px;} 
+    #bold-main{font-size:18px;} 
+} 
+
+@media (min-width: 573px) and (max-width: 909px){ 
+    .main > ul > li > p > img{ 
+        width: 130px; 
+        height: 200px; 
+    } 
+     
+} 
+
+@media (min-width: 573px) and (max-width: 697px){ 
+    .main-image{ 
+        width: 440px; 
+        height:440px; 
+    } 
+} 
+
+@media (min-width: 540px) and (max-width: 572px){ 
+    .main > ul > li > p > img{ 
+        width: 200px; 
+        height:200px; 
+    } 
+    .main-image2 { width:120px; height:150px; margin-top:20px;} 
+     
+     
+} 
+
+@media (min-width: 320px) and (max-width: 539px){ 
+     
+     
+    .main > ul > li > p > img{ 
+        width: 200px; 
+        height:200px; 
+    } 
+    .main-image2 { width:120px; height:150px; margin-top:20px;} 
+    .galleria{  
+    width: 350px;  
+    height: 250px;  
+    background: #000;  
+    margin: 60px 10px 60px 60px; 
+    } 
+    .galleria-info { 
+        top:100px; 
+    } 
+     
+} 
+
+@media (min-width: 700px) and (max-width: 1061px){ 
+     
+     
+    .galleria{  
+        width: 450px;  
+        height: 350px;  
+        background: #000;  
+        margin: 60px 10px 60px 60px; 
+    } 
+} 
+
+
+@media (min-width: 240px) and (max-width: 825px){ 
+    .img-box > img { 
+        display:none;     
+    } 
+    #header{ 
+        background-color:white; 
+        border-radius: 71px; 
+    } 
+    #footer{ 
+        background-color:white;     
+    } 
+    .footer-title > a {color:black;} 
+    .header-title { 
+        color: black; 
+        font-family: Century Gothic, sans-serif; 
+        font-size: 150%; 
+        text-align: center; 
+    } 
+    #kuali { 
+        box-shadow: -1px 6px 12px 4px #ccc; 
+        border: 0px solid gray; 
+        padding: 12px 12px 22px 24px; 
+        margin-top: 40px; 
+        margin-bottom: 40px; 
+    } 
+    body {background-image:url(lone-tree-in-dark-clouds-bw.jpg); background-repeat:no-repeat;background-size:cover; } 
+    #kuali{background-color:white; margin-left: 5%;} 
+    #bold-main{font-size:25px;} 
+    .main-description{font-size:15px;}     
+    .hand {height: 50px;} 
+    .hand2{height:50px;}     
+    /*#myself {display:none;}*/ 
+    #msu-logo{height:100px;width:80px;margin-top:45px;}  
+    #exp > h2 > div { font-size:18px; } 
+    #exp-title { font-size: 13px; } 
+    .specs { 
+        font-family: Century Gothic, sans-serif; 
+        font-size: 11px;     
+    } 
+} 
+
+@media (min-width: 1037px) and (max-width: 1207px){ 
+    .main-description{    font-size: 20px; } 
+    #bold-main{font-size: 30px;} 
+} 
+@media (min-width: 827px) and (max-width: 1036px){ 
+    #bold-main{font-size:25px;} 
+    .main-description{font-size:15px;} 
+    .hand {height: 50px;} 
+    .hand2{height:50px;} 
+     
+} 
+@media (min-width: 826px) and (max-width: 1039px){ 
+    #header{ 
+        background-image: url(cats_animals_yellow_eyes_reflections_hiding_blurred_background_1920x1080_26311.jpg); 
+        background-position-y: 463px; 
+        border-radius: 71px; 
+        background-position-x: 1050px;     
+    } 
+    .kuali { 
+        font-size: 12px;     
+    } 
+} 
+@media (min-width: 1040px) and (max-width: 1920px){ 
+    #header{ 
+            background-image: url(cats_animals_yellow_eyes_reflections_hiding_blurred_background_1920x1080_26311.jpg); 
+            background-position-y: 463px; 
+            background-position-x: 1696px; 
+            border-radius: 71px; 
+        } 
+} 
+@media (min-width: 826px) and (max-width: 1920px){ 
+         
+        #footer { 
+            background-image: url(cats_animals_yellow_eyes_reflections_hiding_blurred_background_1920x1080_26311.jpg); 
+            background-position-y: 325px; 
+            background-position-x: 1696px; 
+            border-radius: 0px; 
+        } 
+        #main-work{ 
+            background-image:url(lone-tree-in-dark-clouds-bw.jpg); 
+            padding: 30px 50px 20px 20px; 
+         } 
+         #main-work div{ 
+            margin-right: 10%; 
+            width: 90%; 
+            padding: 20px 50px 30px 50px; 
+         } 
+            #main-work div div{ 
+                display: inline-block; /* Display inline-block, and absolutely NO FLOATS! */ 
+                margin-bottom: 20px; 
+                width: 80%;  
+                background-color: white; 
+                border-radius: 20px; 
+                box-shadow: inset 0 0 20px #000000; 
+            } 
+                    #main-work div div h2{ 
+                        font-family: Century Gothic, sans-serif; 
+                        font-size: 18px; 
+                        color: black; 
+                    } 
+                        #main-work div div div p{ 
+                            color:black; 
+                            font-family: Century Gothic, sans-serif; 
+                        } 
+    .hand {height: 50px;} 
+    .hand2{height:50px;} 
+    .main-image2 { 
+        width:200px; 
+        height:250px; 
+        margin: 20px auto 20px auto; 
+        display:block; 
+        padding: 20px; 
+    } 
+} 
